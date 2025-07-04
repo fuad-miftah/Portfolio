@@ -11,47 +11,45 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Fuad Miftah </span>
             from <span className="purple"> Addis Ababa, Ethiopia.</span>
-            <br /> I am a software engineering student at 
-            Addis Ababa Science and Technology University (AASTU). The first technology university in Ethiopia.
-            My journey into the world of programming began when I was introduced to a laptop upon entering university. 
-            However, the outbreak of the COVID-19 pandemic disrupted our academic lives. 
-            During this time, I turned to YouTube courses to learn Python, and it was here that I fell in love with programming. 
+            <br /> I am a passionate software engineer with expertise in full-stack development and emerging blockchain technologies. 
+            Currently working as a <span className="purple">Blockchain Developer at ChromaWay</span>, 
+            where I develop decentralized applications (dApps) using Chromia's Rell programming language and Web3 technologies.
             <br />
-
           </p>
           <p style={{ textAlign: "justify" }}>
-          Additionally, I am an active member of a2sv.
-            A2SV has placed <span className="purple"> over 50 students </span> in full-time and internship roles at top tech companies, 
-            including <span className="purple">Google, Amazon, LinkedIn, Palantir, Databricks, Bloomberg, and more. </span>
-             I solved <span className="purple">over 600 </span>data structure and algorithm questions using Python on platforms like LeetCode and
-            Codeforces during the learning period.
+            Previously, I worked as a <span className="purple">Full Stack Engineer at ConDigital</span> where I designed and developed 
+            user interfaces, implemented server-side logic, and contributed to ERP system development. I also served as a 
+            <span className="purple"> Backend Engineer at Africa to Silicon Valley (A2SV)</span>, backed by Google, where I worked on the 
+            Vertex project - a data structure and algorithm learning platform with AI-powered interview features.
           </p>
           <p style={{ textAlign: "justify" }}>
-          With <span className="purple">over two years</span> of hands-on experience in MERN (MongoDB, Express, React, Node.js) Stack development, 
-          I further enriched my skill set by enrolling in Yenetta Code's intensive five-month bootcamp. 
-          During this program, I had the opportunity to lead a project, an online bookstore application, 
-          where my prior expertise in MERN Stack technologies played a crucial role.
-
+            As an active member of <span className="purple">A2SV</span>, I've been part of a community that has successfully placed over 50 students 
+            in top tech companies including <span className="purple">Google, Amazon, LinkedIn, Palantir, Databricks, and Bloomberg.</span> 
+            Through this program, I've solved <span className="purple">over 600</span> data structure and algorithm problems 
+            on platforms like LeetCode and Codeforces, strengthening my problem-solving skills and algorithmic thinking.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            When I'm not coding, you can find me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Spending time with family and friends
+              <ImPointRight /> Exploring the latest blockchain and Web3 technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching football (Fan of Manchester United)
+              <ImPointRight /> Contributing to open-source projects and the developer community
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Enjoying football matches (Proud Manchester United supporter)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Exploring new places and cultures through travel
             </li>
           </ul>
 
-          {/* <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Building innovative solutions that bridge traditional and decentralized technologies!"{" "}
           </p>
-          <footer className="blockquote-footer">Fuad</footer> */}
+          <footer className="blockquote-footer">Fuad Miftah</footer>
         </blockquote>
       </Card.Body>
     </Card>

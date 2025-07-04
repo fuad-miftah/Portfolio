@@ -34,9 +34,23 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-      
-
-
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col md={12}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Professional <strong className="purple">Skillset </strong>
+            </h1>
+            <Techstack />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col md={12}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Tools I <strong className="purple">Use</strong>
+            </h1>
+            <Toolstack />
+          </Col>
+        </Row>
+        <Github />
       </Container>
     </Container>
   );
